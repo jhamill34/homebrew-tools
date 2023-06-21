@@ -1,4 +1,7 @@
-class TPCli < Formula
+require "formula"
+require_relative "lib/private_strategy"
+
+class Tpcli < Formula
   desc ""
   homepage "https://github.com/jhamill34/solutions_engineering"
   url "https://github.com/jhamill34/solutions_engineering/releases/download/v0.1.0/tpcli-v0.1.0-aarch64-apple-darwin.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
