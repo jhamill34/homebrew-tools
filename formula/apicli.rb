@@ -7,11 +7,11 @@ class Apicli < Formula
   
   on_macos do
     on_arm do 
-      url "https://github.com/jhamill34/api-tools/releases/download/v#{VERSION}/apicli-v#{VERSION}-aarch64-apple-darwin.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
+      url "https://github.com/jhamill34/api-tools/releases/download/v#{VERSION}/apicli-v#{VERSION}-aarch64-apple-darwin.tar.gz"
     end
 
     on_intel do
-      url "https://github.com/jhamill34/api-tools/releases/download/v#{VERSION}/apicli-v#{VERSION}-x86_64-apple-darwin.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
+      url "https://github.com/jhamill34/api-tools/releases/download/v#{VERSION}/apicli-v#{VERSION}-x86_64-apple-darwin.tar.gz"
     end
   end
 
