@@ -69,7 +69,7 @@ class Apicli < Formula
 
     (var/"log/apid").mkpath 
 
-    environment_variables :TRANSPOSITD_CONFIG_PATH => opt_prefix/"apid-config.toml"
+    environment_variables :APID_CONFIG_PATH => opt_prefix/"apid-config.toml"
   end
 
   # Homebrew requires tests.
