@@ -1,6 +1,6 @@
 require "formula"
 
-VERSION = "0.1.1"
+VERSION = "0.1.2"
 
 class Apicli < Formula
   homepage "https://github.com/jhamill34/api-tools"
