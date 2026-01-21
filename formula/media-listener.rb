@@ -1,4 +1,4 @@
-VERSION = "0.1.2"
+VERSION = "0.1.3"
 
 class MediaListener < Formula
   desc "macOS system-wide media playback monitor with UNIX socket API"
