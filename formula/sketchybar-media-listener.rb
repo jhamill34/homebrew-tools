@@ -1,7 +1,11 @@
+VERSION = "0.1.0"
+
 class SketchybarMediaListener < Formula
   desc "SketchyBar integration for media_listener"
   homepage "https://github.com/jhamill34/media_listener"
-  head "https://github.com/jhamill34/media_listener.git", branch: "main"
+  head "https://github.com/jhamill34/media_listener.git", tag: VERSION
+  version VERSION
+
 
   depends_on "media-listener"
   depends_on "jq"
