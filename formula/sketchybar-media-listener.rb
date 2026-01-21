@@ -1,4 +1,4 @@
-VERSION = "0.1.0"
+VERSION = "0.1.2"
 
 class SketchybarMediaListener < Formula
   desc "SketchyBar integration for media_listener"

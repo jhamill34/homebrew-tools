@@ -1,4 +1,4 @@
-VERSION = "0.1.0"
+VERSION = "0.1.2"
 
 class MediaListener < Formula
   desc "macOS system-wide media playback monitor with UNIX socket API"
@@ -15,8 +15,7 @@ class MediaListener < Formula
     (buildpath/"headers").mkpath
 
     # Copy headers
-    cp "Sources/media_listener/MediaRemote.h", "headers/"
-    cp "Sources/media_listener/BridgingHeader.h", "headers/"
+    cp "Includes/MediaRemote.h", "headers/"
 
     # Build using Makefile
     system "make", "clean"
