@@ -3,7 +3,9 @@ VERSION = "0.1.0"
 class MediaListener < Formula
   desc "macOS system-wide media playback monitor with UNIX socket API"
   homepage "https://github.com/jhamill34/media_listener"
-  head "https://github.com/jhamill34/media_listener.git", tag: VERSION
+  url "https://github.com/jhamill34/media_listener/archive/refs/tags/#{VERSION}.tar.gz"
+
+  head "https://github.com/jhamill34/media_listener.git"
   version VERSION
 
   depends_on :macos
