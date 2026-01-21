@@ -1,4 +1,4 @@
-VERSION = "0.1.3"
+VERSION = "0.1.4"
 
 class MediaListener < Formula
   desc "macOS system-wide media playback monitor with UNIX socket API"
@@ -16,10 +16,6 @@ class MediaListener < Formula
 
     # Copy headers
     cp "Includes/MediaRemote.h", "headers/"
-
-    # Build using Makefile
-    system "make", "clean"
-    system "make"
 
     # Install binary
     bin.install "media_listener"
